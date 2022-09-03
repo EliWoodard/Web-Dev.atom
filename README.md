@@ -5,5 +5,3 @@
 - Things that will be added in the future:
   - CSS code and JavaScript
   - Start of portfolio website
-
-```
