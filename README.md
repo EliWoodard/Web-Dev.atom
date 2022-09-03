@@ -1,4 +1,9 @@
-# Journal for web-dev:
-## Date: 9/2/2022
-### Entries num: 1
-- Started github repo for web-dev and need to add html files.
+# README file
+## Web-Dev Journal
+### Roadmap
+- The first step's will include more advanced html
+- Things that will be added in the future:
+  - CSS code and JavaScript
+  - Start of portfolio website
+
+```
