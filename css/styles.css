@@ -1,0 +1,36 @@
+  body{
+    background-color: #E7F6F2;
+  }
+
+  hr{
+
+    border-style: dotted none none;
+    width: 5%;
+    height: 0px;
+    border-color: #A7D2CB;
+    border-width: 10px;
+
+  }
+
+  h1{
+    color: #7FBCD2;
+  }
+  h2{
+    color: #7FBCD2;
+  }
+  h3{
+    color: #7FBCD2;
+  }
+  h4{
+    color: #7FBCD2;
+  }
+
+  .section4 {
+    border: none;
+    width: 70%;
+     border-top: 3px double black;
+     color: black;
+     overflow: visible;
+     text-align: center;
+     height: 5px;
+  }
