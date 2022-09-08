@@ -8,3 +8,8 @@
 ### Entries num: 2
 - Finished Section 3 and worked on completing Section 4.
 - Section 4 has covered basic CSS methods and usage.
+## Date: 9/7/2022
+### Entries num: 2
+- Finished Section 4 and started Section 5.
+- Section 4 covered the basics for CSS.
+- Section 5 will go over intermediate CSS.
