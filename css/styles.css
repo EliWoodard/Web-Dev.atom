@@ -24,13 +24,31 @@
   h4{
     color: #7FBCD2;
   }
-
+  h2:hover{
+    color: black;
+  }
+  hr:hover{
+    color: black;
+  }
+/***********************CLASS SELECTORS*****************/
+/*
+* Classes are used for targeting mutiple functions.
+*/
   .section4 {
     border: none;
     width: 70%;
-     border-top: 3px double black;
-     color: black;
+     border-top: 3px double #7FBCD2;
+     color: #7FBCD2;
      overflow: visible;
      text-align: center;
      height: 5px;
   }
+  /***********************ID SELECTORS*****************/
+/*
+* ID Selectors are great because they are more specifc which means
+* they will override other styles. One downside is they can only
+* target one element.
+*/
+#heading {
+  color: #7FBCD2;
+}
