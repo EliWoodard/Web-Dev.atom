@@ -1,3 +1,32 @@
 body {
-  background-color: grey;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-left: 0px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+p{
+  margin-top: 0px;
+}
+
+ .div1{
+   width: 200px;
+   height: 200px;
+   border: solid 20px;
+   background-color: #7FBCD2;
+   margin-top: 0px;
+ }
+ .div2{
+width: 200px;
+height: 200px;
+border: solid 20px;
+background-color: red;
+}
+.div3{
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  background-color: blue;
 }
