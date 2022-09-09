@@ -1,54 +1,82 @@
-  body{
+  body {
     background-color: #E7F6F2;
   }
 
-  hr{
+  h1 {
+    color: #7FBCD2;
+  }
 
+  h2 {
+    color: #7FBCD2;
+  }
+
+  h3 {
+    color: #7FBCD2;
+  }
+
+  h4 {
+    color: #7FBCD2;
+  }
+
+  h2:hover {
+    color: white;
+  }
+
+  hr:hover {
+    color: white;
+  }
+
+  /***********************CLASS SELECTORS*****************/
+  /* Classes are used for targeting mutiple functions.*/
+/***********************Notes Classes*****************/
+  .notesSection {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sections {
+    width: 200px;
+    height: 90%;
+    border: solid 1px;
+    border-color: gray;
+    background-color: #25316D;
+  }
+  .sections hr2:hover {
+    color: white;
+  }
+  .sectionTitles {
+  text-align: center;
+  }
+  .hr1 {
+
+    size: 3px;
+    margin-bottom: 0px;
+  }
+  .webpageLink {
+    vertical-align: bottom;
+  }
+  .notesH1 {
+    margin-bottom: 0px;
+  }
+  .linkDecor {
+    text-decoration: none;
+  }
+/***********************Section4 Classes*****************/
+
+  .section4-hr1 {
     border-style: dotted none none;
     width: 5%;
     height: 0px;
     border-color: #A7D2CB;
     border-width: 10px;
-
   }
 
-  h1{
-    color: #7FBCD2;
-  }
-  h2{
-    color: #7FBCD2;
-  }
-  h3{
-    color: #7FBCD2;
-  }
-  h4{
-    color: #7FBCD2;
-  }
-  h2:hover{
-    color: black;
-  }
-  hr:hover{
-    color: black;
-  }
-/***********************CLASS SELECTORS*****************/
-/*
-* Classes are used for targeting mutiple functions.
-*/
-  .section4 {
-    border: none;
-    width: 70%;
-     border-top: 3px double #7FBCD2;
-     color: #7FBCD2;
-     overflow: visible;
-     text-align: center;
-     height: 5px;
-  }
   /***********************ID SELECTORS*****************/
-/*
+  /*
 * ID Selectors are great because they are more specifc which means
 * they will override other styles. One downside is they can only
 * target one element.
 */
-#heading {
-  color: #7FBCD2;
-}
+  #heading {
+    color: #7FBCD2;
+  }
