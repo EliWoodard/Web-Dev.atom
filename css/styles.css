@@ -26,26 +26,29 @@
     color: white;
   }
 
+
   /***********************CLASS SELECTORS*****************/
   /* Classes are used for targeting mutiple functions.*/
 /***********************Notes Classes*****************/
   .notesSection {
     margin-left: 0px;
+    margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
   .sections {
-    width: 200px;
-    height: 90%;
+    display: inline-block;
+    height: 100%;
+    width: 10%;
     border: solid 1px;
     border-color: gray;
     background-color: #25316D;
   }
-  .sections hr2:hover {
-    color: white;
-  }
+
   .sectionTitles {
   text-align: center;
+  vertical-align: bottom;
   }
   .hr1 {
 
@@ -60,6 +63,15 @@
   }
   .linkDecor {
     text-decoration: none;
+  }
+  .middleSectionNotes {
+
+    text-align: center;
+    height: 100%;
+    color: blue;
+  }
+  .bottomNotesHr {
+    margin-bottom: 500px;
   }
 /***********************Section4 Classes*****************/
 
