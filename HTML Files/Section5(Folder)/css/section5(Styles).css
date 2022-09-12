@@ -4,17 +4,23 @@ body {
  margin-left: 0px;
  margin-bottom: 0px;
  text-align: center;
- background-color: #e9dede;
- font-family: serif;
+
 }
 
 h1 {
+  font-family: Great Vibes, serif;
   padding-top: 100px;
   margin-top: 0px;
 }
+
+h3 {
+  font-family: Libre Baskerville, serif;
+}
+
 p{
   margin-top: 0px;
 }
+
 img {
 
 }
@@ -23,13 +29,29 @@ img {
 
 /***********************Class Selectors*****************/
 
-.container {
+.top-container {
+  background-color: #e9dede;
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  bottom: 0;
+}
+
+/*top-container-photos is for containing a nicely formated set of pictures*/
+.top-container-photos {
+  background-color: #e9dede;
   display: inline-block;
   vertical-align: center;
   position: relative;
   width: 880px;
   height: 1000px;
   bottom: 0;
+}
+
+.middle-container{
+  padding-top: 10px;
 }
 
 /***********************ID Selectors*****************/
@@ -40,7 +62,7 @@ img {
   bottom: 0;
   top: 140px;
   width: 180px;
-  height: 200px;
+  height: 190px;
 }
 
 #mountain {
@@ -63,4 +85,20 @@ img {
   height: 100px;
   top: 300px;
   left: 680px;
+}
+
+#mySkillsPhoto {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#myPhoto {
+  position: relative;
+  width: 15%;
+  height: 15%;
+  overflow: hidden;
+  border-radius: 50%;
 }
