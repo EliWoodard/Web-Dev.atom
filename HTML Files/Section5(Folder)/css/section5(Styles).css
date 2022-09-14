@@ -9,8 +9,17 @@ body {
 
 h1 {
   font-family: Great Vibes, serif;
+  /*font size can be set as "em", "%", or "px"*/
+  /*"em" and "%" will scale with user inputted font size in google options*/
+  /*"em" and "%" will also add to any already em value instead of replace*/
+  /*"rem" will ignore the additive affect and will change the root value*/
+  font-size: 6rem;
   padding-top: 100px;
-  margin-top: 0px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -35,7 +44,7 @@ img {
   vertical-align: center;
   position: relative;
   width: 100%;
-  height: 1300px;
+  height: 1450px;
   bottom: 0;
 }
 
@@ -101,4 +110,10 @@ img {
   height: 15%;
   overflow: hidden;
   border-radius: 50%;
+}
+
+#backToHome {
+  font-family: Libre Baskerville, serif;
+  margin: 100px auto 0 auto;
+  font-size: 2.5rem;
 }
