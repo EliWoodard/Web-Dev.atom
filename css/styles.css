@@ -50,20 +50,24 @@
   text-align: center;
   vertical-align: bottom;
   }
-  .hr1 {
 
+  .hr1 {
     size: 3px;
     margin-bottom: 0px;
   }
+
   .webpageLink {
     vertical-align: bottom;
   }
+
   .notesH1 {
     margin-bottom: 0px;
   }
+
   .linkDecor {
     text-decoration: none;
   }
+  
   .middleSectionNotes {
 
     text-align: center;

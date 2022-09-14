@@ -16,10 +16,12 @@ h1 {
   font-size: 6rem;
   padding-top: 100px;
   margin-top: 50px;
+  line-height: 2;
 }
 
 h2 {
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
@@ -44,7 +46,7 @@ img {
   vertical-align: center;
   position: relative;
   width: 100%;
-  height: 1450px;
+  height: auto;
   bottom: 0;
 }
 
@@ -52,15 +54,36 @@ img {
 .top-container-photos {
   background-color: #e9dede;
   display: inline-block;
-  vertical-align: center;
   position: relative;
   width: 880px;
   height: 1000px;
   bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.middle-container{
+.middle-container {
   padding-top: 10px;
+}
+
+.linkDecor {
+  text-decoration: none;
+}
+
+a:link {
+  color: #7FBCD2;
+}
+
+a:visited {
+  color: #5090a7;
+}
+
+a:hover {
+  color: #4caed1;
+}
+
+a:active {
+  color: #49c6f3;
 }
 
 /***********************ID Selectors*****************/
@@ -77,9 +100,11 @@ img {
 #mountain {
   position: relative;
   text-align: center;
+  top: 6px;
   width: 700px;
   height: 800px;
 }
+
 #cloud1 {
   position: absolute;
   width: 200px;
@@ -114,6 +139,11 @@ img {
 
 #backToHome {
   font-family: Libre Baskerville, serif;
+  text-decoration: none;
   margin: 100px auto 0 auto;
   font-size: 2.5rem;
+}
+
+#Title {
+  color: #7FBCD2;
 }
