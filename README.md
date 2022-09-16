@@ -12,4 +12,4 @@ https://eliwoodard.github.io/Web-Dev.atom/HTML%20Files/Notes.html
 - HTML code
 - CSS code
 - Sections 2 - 4 sub pages
-- Section 5(seperate folder)
+- Section 5(separate folder)
